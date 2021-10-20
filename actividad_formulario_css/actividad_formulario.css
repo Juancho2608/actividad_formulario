@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    background-color: blanchedalmond;
+    height: 50px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 1%;
+}
+
+nav{
+    background-color: white;
+   }
+.expofutbol{
+ display: flex; 
+ align-items: center;
+   }
+
+   .logo img{
+       width: 20%;
+   }
+
+   .expofutbol li{
+       width: 40%;
+       list-style: none;
+   }
+
+   .expofutbol h1{
+color: blue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20mm;
+   }

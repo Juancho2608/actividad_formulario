@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Formulario</title>
+    <link rel="stylesheet" href="./actividad_formulario_css/actividad_formulario.css">
+    <link rel="stylesheet" href="./actividad_formulario_css/form_actividad.css">
+</head>
+
+<body bgcolor="black">
+    <nav id="expofutbol">
+        
+
+             <ul class="expofutbol">
+                <li class="logo">
+                    <img src="./Balón.png">
+                </li>    
+                <li>
+                    <h1>ExpoFutbol</h1>
+                        
+                    </li>
+            </ul>
+    </nav>
+<br>
+<br>
+        <form action="">
+
+            <label class="form" for="equipfav">¿cuál es tu equipo favorito?</label>
+            <br>
+            <br>
+                <input type="text" id="equipfav" name="equipfav" placeholder="escribe tu equipo favorito">
+             <br>
+             <br>
+                    <label  class= form for="cantidadfpc">¿Cuántos equipos crees que hay en el FPC?</label>
+             <br>
+             <br>
+                        <input type="number" id="cantidadfpc" name="cantidadfpc" placeholder="Escribe la cantidad">
+             <br>
+             <br>
+
+                <h1 class="form">¿cuál fue el último campeón del fpc en el primer semestre del presente año?</h1>
+               <br>
+                <label class= "form" for="tolima">Tolima</label>    
+                <input type="radio" name="tolima" id="tolima" value="tolima">  <br>
+                <label class= "form" for="millonarios">Millonarios</label>        
+                <input type="radio" id="millonarios" name="millonarios" value="millonarios"> <br>
+                <label class = "form" for="nacional">Nacional</label>
+                <input type="radio" id="nacional" name="nacional" value="nacional"> <br>
+                <label class = "form" for="santafe">SantaFe</label>
+                <input type="radio" id="santafe" name="santafe" value="santafe"><br>
+                <label class = "form" for="cortulua">Cortulua</label>              
+                <input type="radio" id="cortulua" name="cortulua" value="cortulua">
+                                    
+            <br>
+            <br>
+                <h1 class="form">¿crees que Millonarios va a ser campeón este año?</h1>
+                <label class="form" for="campeon">Si</label>                    
+                <input type="checkbox" id="campeon" name="campeon" value="si">
+                <label class="form" for="campeon">No</label>
+                <input type="checkbox" id="campeon" name="campeon" value="no">
+                <label class="form" for="campeon">Tal vez</label>
+                <input type="checkbox" id="campeon" name="campeon" value="tal vez">
+            <br>
+            
+            <div class= selectbox>class= <select name="" id=""></select></div>
+            <input type="button" value="enviar" onclick="recibirdatos">
+        </form>
+            <div class= selectbox>class= <select name="Tolima" id="Tolima"></select>div>
+                    <input type="text" name="Tolima" id="Tolima">
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer><p>Hecho por Juan Pablo Moreno Palma</p></footer>
+
+</body>
+</html>
